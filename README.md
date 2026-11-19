@@ -1,31 +1,41 @@
-## Hi, I’m Boualleiguie Adam Isslem 👋
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./banner-dark.png">
+  <img alt="Adam Boualleiguie, CTO of RedOps Technologies. Less infrastructure. More business." src="./banner-light.png" width="100%">
+</picture>
 
-### 🚀 Senior DevOps | DevSecOps | SysOps Engineer | IT Enthusiast
+<br>
 
-I’m a Senior Engineer with extensive hands-on experience in automating, managing, and securing complex infrastructures. My expertise spans multiple domains, from **CI/CD pipelines** and **cloud-native architectures** to **hypervisor management** and **networking**. I love the entire spectrum of IT—whether it's fine-tuning system performance, designing robust CI/CD pipelines for multi-platform environments, or managing production-ready Kubernetes clusters.
+I'm CTO of [RedOps Technologies](https://redops-tech.com). We build complex platforms designed to serve millions, on Cloudflare's global network, and the systems that run the business, on ERPNext. Then we run them, so our clients can focus on their business.
 
-### 🌟 What I Master:
-- **GitLab CI/CD**: Advanced pipeline setups for multi-platform monorepos (Java, Flutter, iOS, Angular, and NX-managed projects) and custom configurations for complex workflows. Expertise in **self-hosted GitLab** administration, including setting up runners, fine-tuning server performance, managing bare-metal installations, and disaster recovery.
+I lead our architecture and engineering. We work with companies anywhere, remotely, from Tunisia.
 
-- **Kubernetes & GitOps**: Advanced knowledge in Kubernetes for deployment, microservices architecture, and full cluster management. Proficient in implementing GitOps methodologies with **ArgoCD**, **FluxCD**, and **Fleet** for seamless application deployments.
+### What I work on
 
-- **Cloud & Hypervisor Solutions**: Proficient in managing Kubernetes clusters with **Rancher** and implementing persistent storage solutions with **Longhorn**. Experienced in **Harvester** for HCI environments and **Proxmox** for hypervisor management.
+- **Platforms and products on Cloudflare**: Workers, Zero Trust, security and bot protection. Fast wherever the users are, secure from day one, cheap to run.
+- **Cloud bills**: we decide what belongs on Cloudflare and what stays on classic infrastructure, for the best security and cost. We do not move everything to the edge.
+- **ERPNext**: implementation, migration from Odoo or spreadsheets, hosting, support and custom Frappe apps.
+- **Our own products**: NolagChess (coming soon), RedOps AI and RedOps Insights.
 
-- **Infrastructure as Code (IaC)**: Strong capabilities in **Terraform** for automating the creation of guest VMs in Proxmox via cloud-init templates and using **Ansible** for various automation tasks, including setting up production-grade Kubernetes clusters.
+### Writing
 
-- **Cybersecurity & SSDLC**: Experienced in establishing secure software development lifecycles (SSDLC) by integrating tools like **SonarQube**, **Trivy**, **Harbor**, and **NeuVector** for SAST and DAST scans within automated pipelines. I also practice penetration testing to enhance the security of my solutions.
+- [Harvest now, decrypt later: the quantum problem is already here](https://redops-tech.com/resources/blog/harvest-now-decrypt-later/): why recorded traffic is already at risk, and what we did about it on our own platform.
+- More on the [RedOps blog](https://redops-tech.com/resources/blog/).
 
-- **Networking & System Administration**: Comprehensive knowledge of networking, system security, and infrastructure management, making me versatile across DevOps and SysOps roles.
+### Open source
 
-### 🔧 Key Tools & Technologies:
-- **CI/CD**: GitLab, Jenkins
-- **Containers & Orchestration**: Docker, Kubernetes
-- **IaC**: Terraform
-- **CaC**: Ansible
-- **GitOps**: ArgoCD, FluxCD, Fleet
-- **Hypervisors**: Proxmox, vSphere, Harvester (HCI)
-- **Networking**: Advanced knowledge of networking concepts, firewall configuration, and system-level performance optimization.
-- **Linux Administration**
+| Project | What it does |
+| --- | --- |
+| [ProxGen](https://github.com/adamBoualleiguie/ProxGen) | Terraform for Proxmox: virtual machines from cloud-init templates, created and scaled from code |
+| [erpnext-apm](https://github.com/adamBoualleiguie/erpnext-apm) | Elastic APM for ERPNext: every request traced and every error captured, with no change to ERPNext's core |
+| [k3smp](https://github.com/adamBoualleiguie/k3smp) | A real multi-node k3s cluster on your machine, each node in its own Multipass VM, set up automatically |
+| [opentelemetry-demo-basel-integration](https://github.com/adamBoualleiguie/opentelemetry-demo-basel-integration) | Bazel brought into the OpenTelemetry demo, step by step, across 20+ services in a dozen languages |
 
-### 📚 My Approach:
-I'm a fast learner with a natural ability to grasp and master new technologies quickly. Whether it's a new DevOps tool, a cutting-edge cloud solution, or a complex infrastructure problem, I dive deep, implement best practices, and optimize processes to ensure maximum efficiency.
+### Before RedOps
+
+Six years of DevOps and platform engineering for fintech and e-commerce: Kubernetes and GitOps (Argo CD, Flux), Terraform and Ansible, Proxmox and Harvester, GitLab CI at scale, DevSecOps pipelines, and observability with OpenTelemetry.
+
+### Work with us
+
+Want to know where your infrastructure is losing money or exposed? Start with a [free edge and security audit](https://redops-tech.com/free-audit), or [book a call](https://redops-tech.com/book).
+
+[redops-tech.com](https://redops-tech.com) · [LinkedIn](https://www.linkedin.com/in/boualleiguieadam/)
