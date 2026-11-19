@@ -3,7 +3,7 @@
   <img alt="Adam Boualleiguie, CTO of RedOps Technologies. Less infrastructure. More business." src="./banner-light.png" width="100%">
 </picture>
 
-<br>
+&nbsp;
 
 I'm CTO of [RedOps Technologies](https://redops-tech.com). We build complex platforms designed to serve millions, on Cloudflare's global network, and the systems that run the business, on ERPNext. Then we run them, so our clients can focus on their business.
 
